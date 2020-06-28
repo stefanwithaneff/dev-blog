@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Stefan With an Eff]]></title><description><![CDATA[The developer blog for open work by Stefan]]></description><link>https://stefanwithaneff.com</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 28 Jun 2020 21:32:23 GMT</lastBuildDate><item><title><![CDATA[Project #0: The Dev Blog]]></title><description><![CDATA[I recently left my job as a senior backend engineer at a large tech company because I started to feel bored and dejected with the work I was…]]></description><link>https://stefanwithaneff.com/project-0-dev-blog/</link><guid isPermaLink="false">https://stefanwithaneff.com/project-0-dev-blog/</guid><pubDate>Sun, 28 Jun 2020 20:31:00 GMT</pubDate><content:encoded>&lt;p&gt;I recently left my job as a senior backend engineer at a large tech company because I started to feel bored and dejected with the work I was doing there. In that corporate setting, I lost my passion for web development. At the same time, I really want to try doing my own thing.&lt;/p&gt;
+&lt;p&gt;Now that I have some freedom, my aim is to work through a pile of ideas that I’ve had building up over the course of my time as a developer. Part of this journey is documenting the experience because everyone seems to agree that “building an audience” is an important part of succeeding as an independent developer 🤷&lt;/p&gt;
+&lt;h2&gt;The Pitch&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;A developer blog where I document my efforts as an independent developer, focused on the projects that I complete&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Not the most original idea, I know. It took a while for me to figure out the best way to frame this documenting process. I don’t enjoy promoting myself, so focusing on the projects seems like the best way to ease myself in to this.&lt;/p&gt;
+&lt;p&gt;I was inspired by two people maintaining similar blogs: &lt;a href=&quot;https://www.alexwest.co/&quot;&gt;Alex West&lt;/a&gt; and &lt;a href=&quot;https://tinyprojects.dev/&quot;&gt;Ben Stokes&lt;/a&gt;. Both blogs are informative and entertaining, and I highly recommend following both of them.&lt;/p&gt;
+&lt;h2&gt;The Making Of&lt;/h2&gt;
+&lt;p&gt;My first thought in this whole process is “Where are the solutions for hosting a dev blog?” I know what off-the-shelf solutions to reach for in order to build this thing for free, but I would have easily paid $5/mo to not have to actually learn my way through one of these solutions. Add that to the project pile, I guess.&lt;/p&gt;
+&lt;p&gt;For creating a blog, there are all sorts of tools that you can use. Plain HTML &amp;#x26; CSS is a solid choice. Easy to start with, but gets more complex as you try to do more complex things. Traditional Content Mangement Systems (CMS) like Wordpress were built for this kind of thing, but I don’t really need all of the CMS features of Wordpress for a simple public blog. Instead, I have chosen a Static Site Generator (SSG) called &lt;a href=&quot;https://www.gatsbyjs.org/&quot;&gt;Gatsby&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;SSGs take sources of data and programmatically convert them into plain HTML, CSS, and Javascript so that you can easily host the resulting pages on any ol’ server. Pretty nifty. Gatsby uses two technologies to convert data to pages: React.js and GraphQL. If you’re not familiar with these technologies, it can make working with Gatsby inhibitively difficult, but I have a lot of professional experience working with both, so it’s not too hard for me to use.&lt;/p&gt;
+&lt;p&gt;Two CLI commands from the tutorial later: voila!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/13ce5b00e8b33c9a903592e97a905bf5/cb9f4/demo-blog.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAA4klEQVQoz52SwW6DMAyG+/7vwNtwXbnAbarUU9AopFWCExPCPwe1E3QrKrNkWYqcT5+dHPAU0zTN1VqLoijmrKoKH8cjyrIEM//0PXqXcXgF7LoOWZYhz3PorkWtFJrmCzHGVd/bQOotzqdPtFrj2nvciOF4gHNuZfk2cBQT4hE0RHAYJeN8thx1FzDZnNQFqr2hl31aY2SvBkZqCGE/MIjV1fQw5OC9n0d91K09bhqe64XhPRPwXyPzEFBrA0qGAqGURKtxdwG9GKpGw4ffl159mU1gqgN7eDGNd5vnF/4L/A3YGxF5Nss7KwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;The demo version of a blog that Gatsby auto-generates&quot;
+        title=&quot;The demo version of a blog that Gatsby auto-generates&quot;
+        src=&quot;/static/13ce5b00e8b33c9a903592e97a905bf5/fcda8/demo-blog.png&quot;
+        srcset=&quot;/static/13ce5b00e8b33c9a903592e97a905bf5/12f09/demo-blog.png 148w,
+/static/13ce5b00e8b33c9a903592e97a905bf5/e4a3f/demo-blog.png 295w,
+/static/13ce5b00e8b33c9a903592e97a905bf5/fcda8/demo-blog.png 590w,
+/static/13ce5b00e8b33c9a903592e97a905bf5/efc66/demo-blog.png 885w,
+/static/13ce5b00e8b33c9a903592e97a905bf5/c83ae/demo-blog.png 1180w,
+/static/13ce5b00e8b33c9a903592e97a905bf5/cb9f4/demo-blog.png 1903w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Gatsby can generate a blog from a starter template for you. It’s kind of annoying/overwhelming when starter templates provide a bunch of fake content. Not only do you have to learn the tool, now you have to learn how the specific starter project works in order to untangle the project and get it to behave how you’d like.&lt;/p&gt;
+&lt;p&gt;I’m refraining from adjusting the blog from its initial template too much to avoid slowing me down on things that don’t really matter right now. A few tweaks to style and layout and I have something a little more my own.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f0c536bdecf9168cdfaba0436f417670/cb9f4/my-blog.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAA+ElEQVQoz5WSzW6DMBCE8/7PxRWJCxwQCFQgasEY/2AbQ2HqWGoEUVPBXsaH9aed2b1hV9u2PTWOY4RhiDRNEQSB1yRJEEURlmU59O/r9g5Y1zXyPEfTNMiyDFVVoSgKlGUJrfWz7xX6Fsi5QN/3aNvOKyHE6zAMYIxdByqlwN1HzjmYg1BKIYSAMQbTNB16TwGJ0OhHi26cMa/4sy5lOEiNjiuMxv4LOz3hV8/w0bq8hIR0Vh/WpZQ+iv2WTwOpUCBuQqUNrMvskZ219gC4ZLmjDPfWbZVxNx3zpzJ5sPbvdV2vWb7zCZ/c4NvZm+fZA34t7q2+An8AwOYO/1K6Qa4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;My adjustment to the auto-generated demo blog&quot;
+        title=&quot;My adjustment to the auto-generated demo blog&quot;
+        src=&quot;/static/f0c536bdecf9168cdfaba0436f417670/fcda8/my-blog.png&quot;
+        srcset=&quot;/static/f0c536bdecf9168cdfaba0436f417670/12f09/my-blog.png 148w,
+/static/f0c536bdecf9168cdfaba0436f417670/e4a3f/my-blog.png 295w,
+/static/f0c536bdecf9168cdfaba0436f417670/fcda8/my-blog.png 590w,
+/static/f0c536bdecf9168cdfaba0436f417670/efc66/my-blog.png 885w,
+/static/f0c536bdecf9168cdfaba0436f417670/c83ae/my-blog.png 1180w,
+/static/f0c536bdecf9168cdfaba0436f417670/cb9f4/my-blog.png 1903w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;All that’s left is to clean up the posts and deploy. Deployment is pretty easy, just push the codebase up to Github and set up Github Pages. Put a free CDN like Cloudflare in front of it in case of sudden traffic surges, and I’m done!&lt;/p&gt;
+&lt;h2&gt;Takeaways&lt;/h2&gt;
+&lt;p&gt;Writing is hard, and I’m a perfectionist. It’s a bad combo. I have to get better about shipping earlier, really emphasize the ‘M’ in MVP. So, I’m shipping this blog without any real enhancements or personal stylistic touches. I do have some ideas for enhancing it in the future:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make the blog look a little more “my own”&lt;/li&gt;
+&lt;li&gt;Update the styles to respect dark mode&lt;/li&gt;
+&lt;li&gt;Create a tag system for posts and make a “Projects” page for all posts with the projects tag&lt;/li&gt;
+&lt;li&gt;Improve the styles specifically for list items because the lack of indentation here is bothering me&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For now, it’s good enough™️&lt;/p&gt;</content:encoded></item></channel></rss>
