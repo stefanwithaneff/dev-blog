@@ -1,5 +1,5 @@
 ---
-title: "Project #0: The Dev Blog"
+title: "Project #0 - The Dev Blog"
 date: "2020-06-28T20:31:00.271Z"
 description: Building this dev blog with Gatsby
 tags: ["projects"]
@@ -23,13 +23,13 @@ My first thought in this whole process is "Where are the solutions for hosting a
 
 For creating a blog, there are all sorts of tools that you can use. Plain HTML & CSS is a solid choice. Easy to start with, but gets more complex as you try to do more complex things. Traditional Content Mangement Systems (CMS) like Wordpress were built for this kind of thing, but I don't really need all of the CMS features of Wordpress for a simple public blog. Instead, I have chosen a Static Site Generator (SSG) called [Gatsby](https://www.gatsbyjs.org/).
 
-SSGs take sources of data and programmatically convert them into plain HTML, CSS, and Javascript so that you can easily host the resulting pages on any ol' server. Pretty nifty. Gatsby uses two technologies to convert data to pages: React.js and GraphQL. If you're not familiar with these technologies, it can make working with Gatsby inhibitively difficult, but I have a lot of professional experience working with both, so it's not too hard for me to use.
+SSGs take sources of data and programmatically convert them into plain HTML, CSS, and Javascript so that you can easily host the resulting pages on any ol' server. Pretty nifty. Gatsby uses two technologies to convert data to pages: React.js and GraphQL. If you are not familiar with these technologies, it can make working with Gatsby inhibitively difficult/slow, but I have a lot of professional experience working with both, so it seems like the perfect tool.
 
 Two CLI commands from the tutorial later: voila!
 
 ![The demo version of a blog that Gatsby auto-generates](./demo-blog.png)
 
-Gatsby can generate a blog from a starter template for you. It's kind of annoying/overwhelming when starter templates provide a bunch of fake content. Not only do you have to learn the tool, now you have to learn how the specific starter project works in order to untangle the project and get it to behave how you'd like.
+Gatsby can generate a blog from a starter template for you. What's great about this setup is that I can now write my blog posts in a more author-friendly format like Markdown. Gatsby will then transform my Markdown files into static HTML. Magic ✨
 
 I'm refraining from adjusting the blog from its initial template too much to avoid slowing me down on things that don't really matter right now. A few tweaks to style and layout and I have something a little more my own.
 
@@ -39,7 +39,7 @@ All that's left is to clean up the posts and deploy. Deployment is pretty easy, 
 
 ## Takeaways
 
-Writing is hard, and I'm a perfectionist. It's a bad combo. I have to get better about shipping earlier, really emphasize the 'M' in MVP. So, I'm shipping this blog without any real enhancements or personal stylistic touches. I do have some ideas for enhancing it in the future:
+Writing is hard, and I'm a perfectionist. It's a bad combo. One of my focuses as I work independently is to really emphasize the 'M' in MVP. So, I'm shipping this blog without any real enhancements or personal stylistic touches. I do have some ideas for enhancing it in the future, though:
 
 - Make the blog look a little more "my own"
 - Update the styles to respect dark mode

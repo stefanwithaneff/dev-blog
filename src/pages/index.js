@@ -24,6 +24,10 @@ const BlogIndex = ({ data, location }) => {
           hopes of finding projects that are worth investing my time in. At the
           very least, I'll learn things and grow along the way.
         </p>
+        <p>
+          Currently working on:{" "}
+          <strong>Project #1 - The Shotgun Approach</strong>
+        </p>
       </section>
       <hr />
       {posts.map(({ node }) => {
