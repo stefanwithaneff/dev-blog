@@ -52,16 +52,26 @@ const Layout = ({ location, title, children }) => {
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(24),
+        maxWidth: rhythm(28),
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        Built by
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <a
+          href="https://twitter.com/stefanwithaneff"
+          target="_blank"
+          rel="noreferrer"
+        >
+          @stefanwithaneff
+        </a>{" "}
+        using{" "}
+        <a href="https://www.gatsbyjs.org/" target="_blank" rel="noreferrer">
+          Gatsby
+        </a>
       </footer>
     </div>
   )

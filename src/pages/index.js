@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -12,8 +11,21 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
-      <Bio />
+      <SEO title="Home" />
+      <section>
+        <p>
+          Hi, my name is Stefan, and I'm a web developer. This blog is my
+          attempt to do more work in the open: to share my thoughts and
+          processes so that others might learn from my efforts.
+        </p>
+        <p>
+          I have an ever-growing list of ideas for projects: businesses, open
+          source libraries, etc. My goal is to work through this list in the
+          hopes of finding projects that are worth investing my time in. At the
+          very least, I'll learn things and grow along the way.
+        </p>
+      </section>
+      <hr />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         return (
